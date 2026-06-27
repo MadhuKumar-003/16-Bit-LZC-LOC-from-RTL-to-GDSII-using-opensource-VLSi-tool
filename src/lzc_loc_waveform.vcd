@@ -1,0 +1,65 @@
+$date
+	Sat Jun 27 17:43:12 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_lzc_loc $end
+$var wire 5 ! count [4:0] $end
+$var reg 16 " in [15:0] $end
+$var reg 1 # mode $end
+$scope module uut $end
+$var wire 16 $ in [15:0] $end
+$var wire 1 # mode $end
+$var wire 16 % process_data [15:0] $end
+$var reg 5 & count [4:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b100 &
+b111100001111 %
+b111100001111 $
+0#
+b111100001111 "
+b100 !
+$end
+#10000
+b0 !
+b0 &
+b1000000000000000 %
+b1000000000000000 "
+b1000000000000000 $
+#20000
+b10000 !
+b10000 &
+b0 %
+b0 "
+b0 $
+#30000
+b100 !
+b100 &
+b111100001111 %
+b1111000011110000 "
+b1111000011110000 $
+1#
+#40000
+b0 !
+b0 &
+b1000000000000000 %
+b111111111111111 "
+b111111111111111 $
+#50000
+b10000 !
+b10000 &
+b0 %
+b1111111111111111 "
+b1111111111111111 $
+#60000
